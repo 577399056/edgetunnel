@@ -1,6 +1,8 @@
 name: Obfuscate and Commit
 
 on:
+    schedule:
+      - cron: '0 3 * * *'
     #push:
     #    paths:
     #        - '明文源码.js'
